@@ -3988,8 +3988,8 @@
   //#define SERVICE_INTERVAL_1  100 // print hours
   //#define SERVICE_NAME_2      "Service L"
   //#define SERVICE_INTERVAL_2  200 // print hours
-  //#define SERVICE_NAME_3      "Service 3"
-  //#define SERVICE_INTERVAL_3    1 // print hours
+  #define SERVICE_NAME_3      "Service Test - Du ska göra rent skrivaren"
+  #define SERVICE_INTERVAL_3    1 // print hours
 #endif
 
 // @section develop
