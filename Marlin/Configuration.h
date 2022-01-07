@@ -603,9 +603,9 @@
     #define DEFAULT_Kd_LIST { 114.00, 114.00 }
   #else
     // Creality Stock - Ender 3 Max tuned
-    #define DEFAULT_Kp  21.39
-    #define DEFAULT_Ki   1.56
-    #define DEFAULT_Kd  73.30
+  #define DEFAULT_Kp 20.60
+  #define DEFAULT_Ki 1.49
+  #define DEFAULT_Kd 70.99
   #endif
 #endif // PIDTEMP
 
@@ -867,7 +867,7 @@
  */
 #define X_DRIVER_TYPE TMC2208_STANDALONE
 #define Y_DRIVER_TYPE TMC2208_STANDALONE
-#define Z_DRIVER_TYPE TMC2208_STANDALONE
+#define Z_DRIVER_TYPE A4988
 //#define X2_DRIVER_TYPE A4988
 //#define Y2_DRIVER_TYPE A4988
 //#define Z2_DRIVER_TYPE A4988
@@ -876,7 +876,7 @@
 //#define I_DRIVER_TYPE  A4988
 //#define J_DRIVER_TYPE  A4988
 //#define K_DRIVER_TYPE  A4988
-#define E0_DRIVER_TYPE TMC2208_STANDALONE
+#define E0_DRIVER_TYPE A4988
 //#define E1_DRIVER_TYPE A4988
 //#define E2_DRIVER_TYPE A4988
 //#define E3_DRIVER_TYPE A4988
@@ -1873,8 +1873,8 @@
 // Preheat Constants - Up to 5 are supported without changes
 //
 #define PREHEAT_1_LABEL       "PLA"
-#define PREHEAT_1_TEMP_HOTEND 180
-#define PREHEAT_1_TEMP_BED     70
+#define PREHEAT_1_TEMP_HOTEND 215
+#define PREHEAT_1_TEMP_BED     60
 #define PREHEAT_1_TEMP_CHAMBER 35
 #define PREHEAT_1_FAN_SPEED     0 // Value from 0 to 255
 
@@ -2021,7 +2021,7 @@
  *
  * View the current statistics with M78.
  */
-//#define PRINTCOUNTER
+#define PRINTCOUNTER
 #if ENABLED(PRINTCOUNTER)
   #define PRINTCOUNTER_SAVE_INTERVAL 60 // (minutes) EEPROM save interval during print
 #endif
