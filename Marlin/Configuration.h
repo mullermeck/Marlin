@@ -145,7 +145,7 @@
 //#define BLUETOOTH
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "Ender-3 Max 4.2.2"
+#define CUSTOM_MACHINE_NAME "Ender-3 Max"
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4
@@ -365,7 +365,7 @@
  * Specify whether the power supply is active HIGH or active LOW.
  */
 //#define PSU_CONTROL
-//#define PSU_NAME "Power Supply"
+#define PSU_NAME "Meanwell"
 
 #if ENABLED(PSU_CONTROL)
   //#define MKS_PWC                 // Using the MKS PWC add-on
@@ -557,7 +557,7 @@
 // Above this temperature the heater will be switched off.
 // This can protect components from overheating, but NOT from shorts and failures.
 // (Use MINTEMP for thermistor short/failure protection.)
-#define HEATER_0_MAXTEMP 275
+#define HEATER_0_MAXTEMP 255
 #define HEATER_1_MAXTEMP 275
 #define HEATER_2_MAXTEMP 275
 #define HEATER_3_MAXTEMP 275
@@ -565,7 +565,7 @@
 #define HEATER_5_MAXTEMP 275
 #define HEATER_6_MAXTEMP 275
 #define HEATER_7_MAXTEMP 275
-#define BED_MAXTEMP      150
+#define BED_MAXTEMP      120
 #define CHAMBER_MAXTEMP  60
 
 /**
