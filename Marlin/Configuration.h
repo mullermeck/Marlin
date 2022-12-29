@@ -670,9 +670,9 @@
     #define DEFAULT_Kd_LIST { 114.00, 114.00 }
   #else
     // Creality Stock - Ender 3 Max tuned
-    #define DEFAULT_Kp  21.39
-    #define DEFAULT_Ki   1.56
-    #define DEFAULT_Kd  73.30
+    #define DEFAULT_Kp  21.33
+    #define DEFAULT_Ki   1.57
+    #define DEFAULT_Kd  72.54
   #endif
 #endif
 
@@ -2082,7 +2082,7 @@
 // For DELTA this is the top-center of the Cartesian print volume.
 #define MANUAL_X_HOME_POS 0
 #define MANUAL_Y_HOME_POS 0
-#define MANUAL_Z_HOME_POS 0,2
+#define MANUAL_Z_HOME_POS 0.2
 //#define MANUAL_I_HOME_POS 0
 //#define MANUAL_J_HOME_POS 0
 //#define MANUAL_K_HOME_POS 0
